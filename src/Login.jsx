@@ -14,7 +14,7 @@ function Login({ onLogin }) {
   return (
     <div className="login-container">
       <h1 className="gr">Welcome to GameReviews.eo</h1>
-      <h2>Login to your Account</h2>
+      <h2 className='logAcc'>Login to your Account</h2>
       <form onSubmit={handleSubmit} className="formy">
         <input className="user"
           type="text" placeholder="Username" value={username} 
